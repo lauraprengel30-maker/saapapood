@@ -1,0 +1,127 @@
+
+footer {
+    margin-top: 3rem;
+    padding: 3rem;
+}
+
+.bi {
+    display: inline-block;
+    fill: currentColor;
+    width: 1rem;
+    height: 1rem;
+}
+
+.bi-person {
+    display: inline-block;
+    fill: currentColor;
+    font-size: 1.5rem;
+   
+}
+
+.bi-cart3 {
+    display: inline-block;
+    fill: currentColor;
+    font-size: 1.25rem;
+    
+}
+
+body {
+    padding-top: 80px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+section { background-color:#f8f9fa; 
+    padding-top: 40px; 
+    padding-bottom: 60px; 
+} 
+
+section .col-lg-6 > .card, section .col-lg-6.d-flex { 
+    background-color: #ffffff; 
+    border-radius: 12px; 
+} 
+
+section .card { 
+    border: none; 
+    border-radius: 12px;
+} 
+
+section h4 { 
+    font-weight: 600; 
+} 
+
+section h5 { 
+    font-weight: 600; 
+} 
+
+section .col-lg-6 img { 
+    border-radius: 10px; 
+    object-fit: cover; 
+} 
+
+.form-control, .form-select { 
+    border-radius: 8px; 
+    padding: 10px 12px; 
+    border: 1px solid #ced4da; 
+} 
+
+.form-control:focus, .form-select:focus { 
+    border-color: #86b7fe; 
+    box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.15); 
+} 
+
+.form-check { 
+    padding: 10px 12px 10px 36px; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 8px; 
+    margin-bottom: 8px; 
+    transition: background-color 0.2s ease, border-color 0.2s ease; 
+} 
+
+.form-check:hover { 
+    background-color: #f8f9fa; 
+    border-color: #adb5bd; 
+} 
+
+.form-check-input { 
+    cursor: pointer; 
+} 
+
+.form-check-label { 
+    cursor: pointer; 
+} 
+
+section .btn-primary { 
+    border-radius: 8px; 
+    font-weight: 600; 
+    padding: 12px 20px; 
+} 
+
+section .btn-primary:hover { 
+    transform: translateY(-1px); 
+} 
+
+section p { 
+    color: #555; 
+} 
+
+section .p-2 p:last-child { 
+    font-size: 1.2rem; 
+    font-weight: 600; 
+    color: #212529; 
+}  
+
+@media (min-width: 992px) { 
+    section .row { align-items: flex-start; 
+    } 
+}  
+
+@media (max-width: 991px) { 
+    section .col-lg-6 { 
+        margin-bottom: 30px; 
+    } 
+}
